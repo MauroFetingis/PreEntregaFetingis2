@@ -70,7 +70,7 @@ p {
     font-weight: 700;
 }
 .boton-agregar {
-    background-color: royalblue;
+    background-color: rgb(228, 132, 22);
     color: white;
     font-size: 18px;
     font-weight: 700;
@@ -79,6 +79,7 @@ p {
 }
 .boton-agregar:hover {
     cursor: pointer;
+    background-color: rgb(115, 73, 14);
 }
 .boton-agregar:focus {
     outline: none;
@@ -105,7 +106,7 @@ p {
 
 .modal-carrito {
     position: relative;
-    background-color: white;
+    background-color: rgb(245, 245, 245);
     min-width: 500px;
     padding: 20px;
     margin-top: -100%;
@@ -117,7 +118,7 @@ p {
 }
 
 .modal-carrito h3 {
-    color: royalblue;
+    color: rgb(225, 73, 65);
     padding-bottom: 5px;
 }
 .modal-carrito #carritoCerrar {
@@ -125,7 +126,7 @@ p {
     top: 15px;
     right: 15px;
     font-size: 20px;
-    color: royalblue;
+    color: rgb(225, 158, 65);
     border: none;
     background-color: white;
 }
