@@ -1,7 +1,6 @@
 const contenedorProductos = document.getElementById('contenedor-productos')
 
 
-
 const contenedorCarrito = document.getElementById('carrito-contenedor')
 
 const botonVaciar = document.getElementById('vaciar-carrito')
@@ -59,18 +58,15 @@ const agregarAlCarrito = (prodId) => {
 
     if (existe){ 
         const prod = carrito.map (prod => { 
-           
             if (prod.id === prodId){
                 prod.cantidad++
             }
         })
     } else { 
         const item = stockProductos.find((prod) => prod.id === prodId)
-       
         carrito.push(item)
-        console.log(carrito)
     }
-
+    
     actualizarCarrito() 
 }
 

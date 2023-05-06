@@ -11,8 +11,9 @@ let stockProductos = [
     {id: 10, nombre: "Jueguete para gato", tipo: "perro", cantidad: 1, desc: "Juguetes para gatos ", precio: 200, img: './img/juguete para gato.jpg'},
     {id: 11, nombre: "Cama para perros", tipo: "perro", cantidad: 1,desc: "Cama acolchonada para perros", precio: 2500, img: './img/cama para mascotas.png'},
     {id: 12, nombre: "Cama para gatos", tipo: "gato", cantidad: 1, desc: "Cama acolchonada para gatos", precio: 2200, img: './img/cama para mascotas.png'},
-    {id: 13, nombre: "Ropa para perro", tipo: "perro", cantidad: 1, desc: "Ropa abrigada de invierno para perros", precio: 1000, img: './img/pantalon.jpg'},
+    {id: 13, nombre: "Ropa para perro", tipo: "perro", cantidad: 1, desc: "Ropa abrigada de invierno para perros", precio: 1000, img: './img/ropa para perro.jpg'},
     {id: 15, nombre: "Champu para animales", tipo: "general", cantidad: 1, desc: "Champú antipulgas para animales", precio: 1000, img: './img/champu para animales.png'},
-    {id: 16, nombre: "Cepillo para animales", tipo: "general", cantidad: 1, desc: "Cepillo para animales", precio: 700, img: './img/peine para animales.png'}
+    {id: 16, nombre: "Cepillo para animales", tipo: "general", cantidad: 1, desc: "Cepillo para animales", precio: 700, img: './img/peine para animales.png'},
+    {id: 16, nombre: "Cepillo para animales", tipo: "general", cantidad: 1, desc: "Cepillo para animales", precio: 700, img: './img/peine para animales.png'},
     
 ]
