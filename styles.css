@@ -1,4 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+
+:root{
+--principal:rgb(243, 232, 221);
+--fondo:#ede6e2;
+--secundario:rgb(99, 70, 38);
+--detalles:#00d7f8;
+}
+
+.borderContainer{
+    background: var(--fondo);
+    border-radius: 1rem;
+    padding: 1rem;
+    margin: 1rem;
+}
+
+
 * {
     transition: .3s linear;
     margin: 0;
@@ -10,39 +26,55 @@ html::-webkit-scrollbar-thumb{
     border-radius: 5rem;
 }
 body{
+    background: linear-gradient(rgba(181, 176, 176, 0.645),rgb(190, 185, 185))no-repeat center / cover;
     font-family: 'Roboto', sans-serif;
 }
 img {
     width: 100%;
+    height: max-content;
     margin-bottom: 10px;
 }
 header {
+    background:linear-gradient(rgba(0, 0, 0, 0.329), rgba(0, 0, 0, 0.236)), url('img/header.png') no-repeat center / cover;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 20px 10%;
-    box-shadow: 0px 5px 4px 3px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 5px 4px 3px rgba(213, 201, 201, 0.518);
     margin-bottom: 20px;
 }
+select{
+    text-decoration: wavy;
+    font-size: 1.4em;
+    
+}
 h1 {
-    color: rgb(12, 20, 47);
+    background-image: linear-gradient(90deg, var(--principal), var(--secundario));
+    background-color: var(--detalles);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    -moz-text-fill-color: transparent;
+    -moz-background-clip: text;
     text-transform: uppercase;
     font-weight: 700;
     font-size: 50px;
+    text-shadow: 1px 1px 4px #fffdfd00;
 }
 #boton-carrito {
     border: none;
-    color: rgb(4, 11, 33);
+    color: rgb(240, 240, 240);
     font-size: 40px;
-    background-color: white;
+    background-color: unset;
     border-radius: 50%;
     padding: 10px 20px;
     transition: all .3s;
+    text-shadow: 1px 1px 4px #cb5e05;
 }
 #boton-carrito:hover {
     cursor: pointer;
-    color: white;
-    background-color: royalblue;
+    color: rgb(0, 0, 0);
+    background-color: whitesmoke;
 }
 #boton-carrito:focus {
     outline: none;
@@ -57,7 +89,7 @@ h1 {
 }
 
 p {
-    line-height: 1.8;
+    line-height: 1.5;
 }
 .producto {
     max-width: 20%;
@@ -70,8 +102,8 @@ p {
     font-weight: 700;
 }
 .boton-agregar {
-    background-color: rgb(228, 132, 22);
-    color: white;
+    background-color: rgb(168, 140, 107);
+    color: rgb(245, 245, 245);
     font-size: 18px;
     font-weight: 700;
     padding: 5px;
@@ -155,8 +187,8 @@ p {
 }
 
 .boton-eliminar {
-    background-color: white;
-    color: red;
+    background-color: rgb(245, 245, 245);
+    color: rgb(223, 18, 18);
     border: none;
     font-size: 20px;
 }
